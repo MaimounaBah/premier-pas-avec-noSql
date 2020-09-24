@@ -1,0 +1,50 @@
+[
+    {
+        "client":
+         [
+            {   "id": 1,
+                "nom" : "Mopala",
+                "adresse" : "88 rue du lien",
+                "CA" : "30.000",
+                "commentaire" : "client cool"
+            },      
+            {
+                "id": 2,
+                "nom" : "Areaz",
+                "adresse" : "3 chemin des possons",
+                "CA" : "150.000",
+                "commentaire" : "exigeant et préssé"
+            }
+
+        ]
+    },
+    {
+        "commande":
+        [
+            {
+                "ref" : "0125EEZ",
+                "type_livraison" : "main propre",
+                "client_id": 1
+            },
+            {   "ref" : "56K33",
+                "type_livraison" : "main propre",
+                "client_id": 1
+            
+            },
+            {   "ref" : "NN045",
+                "type_livraison" : "main propre",
+                "client_id": 1
+            },
+            {
+                "ref" : "OUBLIO",
+                "type_livraison" : "avion",
+                "client_id": "2"
+            },
+            {
+                "ref" : "TR99A",
+                "type_livraison" : "avion",
+                "client_id": 2
+            }
+        ]
+    }
+]
